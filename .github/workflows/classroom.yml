@@ -32,7 +32,7 @@ jobs:
         with:
           test-name: test 2
           setup-command: pip install pytest
-          command: python -m pytest ./tests/test_process_guess.py
+          command: python -m pytest ./tests/test_check_higher_lower.py
           timeout: 10
           max-score: 25
 
@@ -42,7 +42,7 @@ jobs:
         with:
           test-name: test 3
           setup-command: pip install pytest
-          command: python -m pytest ./tests/test_check_higher_lower.py
+          command: python -m pytest ./tests/test_process_guess.py
           timeout: 10
           max-score: 25
 
